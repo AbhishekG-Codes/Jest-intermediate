@@ -23,3 +23,25 @@ describe("checking express", () => {
         expect(res.body.message).toBe(`Updated age to ${age}`);
     });
 });
+
+
+// import {describe,it,expect} from "@jest/globals"
+// import request from "supertest"
+// import {app} from "../index"
+
+// describe("checking express",()=>{
+//     it("recving message",async ()=>{
+//         const res = await request(app).post("/add").send({
+//             num1:1,
+//             num2:2
+//         })
+//         expect(res.body.sum).toBe(3)
+//     })
+//     it("wrong datatype",async ()=>{
+//         const res = await request(app).post("/add").send({
+//             num1:"abhi",
+//             num2:2
+//         })
+//         expect(res.body.error).toBe("Both num1 and num2 must be numbers")
+//     })
+// })
