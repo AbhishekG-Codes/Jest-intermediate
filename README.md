@@ -1,3 +1,5 @@
+Integration testing ensures that multiple components (e.g., routes, middleware, database) in an application work together as expected. In Express.js, we use Supertest to simulate API requests and verify responses.
+
 npm i --save-dev @types/supertest 
 #Install @types/supertest for testing Express requests
 
